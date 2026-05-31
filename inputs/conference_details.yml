@@ -1,0 +1,33 @@
+# CustomNLP4U @ ACL 2026 — Second Workshop on Customizable NLP
+# Use UTF-8 directly (e.g., Rilić), no LaTeX escapes.
+
+book_title: "Proceedings of the Second Workshop on Customizable NLP: Progress and Challenges in Customizing NLP for a Domain, Application, Group, or Individual (CustomNLP4U)"
+event_name: "The Second Workshop on Customizable NLP: Progress and Challenges in Customizing NLP for a Domain, Application, Group, or Individual"
+# If the long book_title above is too long for the watermark, uncomment this:
+# watermark_book_title: Proceedings of the Second Workshop on\\ Customizable NLP (CustomNLP4U)
+cover_subtitle: Proceedings of the Workshop
+anthology_venue_id: CustomNLP4U
+start_date: 2026-07-03
+end_date: 2026-07-03
+isbn: ""
+location: San Diego, California, USA
+publisher: Association for Computational Linguistics
+volume_name: "1"
+
+editors:
+  - first_name: Sheshera
+    last_name: Mysore
+  - first_name: Sachin
+    last_name: Kumar
+  - first_name: Vidhisha
+    last_name: Balachandran
+  - first_name: Shirley
+    middle_name: Anugrah
+    last_name: Hayati
+  - first_name: Faeze
+    last_name: Brahman
+  - first_name: Hanane
+    middle_name: Nour
+    last_name: Moussa
+  - first_name: Alireza
+    last_name: Salemi

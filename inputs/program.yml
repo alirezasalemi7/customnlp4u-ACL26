@@ -1,0 +1,107 @@
+# CustomNLP4U @ ACL 2026 — half-day workshop, 2026-07-03 09:00–12:30 PT
+# Times must be YYYY-MM-DD HH:MM:SS. Paper IDs must be quoted strings
+# matching ids in papers.yml.
+#
+# This is a SCAFFOLD with all 22 papers in one poster session. Split into
+# oral + poster sessions, add invited talks/breaks, and assign each paper
+# its presentation slot once the program committee finalizes the program.
+
+- title: Opening Remarks
+  start_time: 2026-07-03 09:00:00
+  end_time: 2026-07-03 09:15:00
+
+- title: Session 1
+  start_time: 2026-07-03 09:15:00
+  end_time: 2026-07-03 10:45:00
+  subsessions:
+    - title: Poster Session
+      start_time: 2026-07-03 09:15:00
+      end_time: 2026-07-03 10:45:00
+      location: Old Town
+      chair: "Sheshera Mysore"
+      papers:
+        - id: "1"
+          start_time: 2026-07-03 09:15:00
+          end_time: 2026-07-03 10:45:00
+        - id: "3"
+          start_time: 2026-07-03 09:15:00
+          end_time: 2026-07-03 10:45:00
+        - id: "5"
+          start_time: 2026-07-03 09:15:00
+          end_time: 2026-07-03 10:45:00
+        - id: "12"
+          start_time: 2026-07-03 09:15:00
+          end_time: 2026-07-03 10:45:00
+        - id: "14"
+          start_time: 2026-07-03 09:15:00
+          end_time: 2026-07-03 10:45:00
+        - id: "16"
+          start_time: 2026-07-03 09:15:00
+          end_time: 2026-07-03 10:45:00
+        - id: "18"
+          start_time: 2026-07-03 09:15:00
+          end_time: 2026-07-03 10:45:00
+        - id: "19"
+          start_time: 2026-07-03 09:15:00
+          end_time: 2026-07-03 10:45:00
+        - id: "24"
+          start_time: 2026-07-03 09:15:00
+          end_time: 2026-07-03 10:45:00
+        - id: "26"
+          start_time: 2026-07-03 09:15:00
+          end_time: 2026-07-03 10:45:00
+        - id: "29"
+          start_time: 2026-07-03 09:15:00
+          end_time: 2026-07-03 10:45:00
+
+- title: Coffee Break
+  start_time: 2026-07-03 10:45:00
+  end_time: 2026-07-03 11:00:00
+
+- title: Session 2
+  start_time: 2026-07-03 11:00:00
+  end_time: 2026-07-03 12:15:00
+  subsessions:
+    - title: Poster Session (cont.)
+      start_time: 2026-07-03 11:00:00
+      end_time: 2026-07-03 12:15:00
+      location: Old Town
+      chair: "Sachin Kumar"
+      papers:
+        - id: "33"
+          start_time: 2026-07-03 11:00:00
+          end_time: 2026-07-03 12:15:00
+        - id: "34"
+          start_time: 2026-07-03 11:00:00
+          end_time: 2026-07-03 12:15:00
+        - id: "35"
+          start_time: 2026-07-03 11:00:00
+          end_time: 2026-07-03 12:15:00
+        - id: "36"
+          start_time: 2026-07-03 11:00:00
+          end_time: 2026-07-03 12:15:00
+        - id: "42"
+          start_time: 2026-07-03 11:00:00
+          end_time: 2026-07-03 12:15:00
+        - id: "45"
+          start_time: 2026-07-03 11:00:00
+          end_time: 2026-07-03 12:15:00
+        - id: "46"
+          start_time: 2026-07-03 11:00:00
+          end_time: 2026-07-03 12:15:00
+        - id: "49"
+          start_time: 2026-07-03 11:00:00
+          end_time: 2026-07-03 12:15:00
+        - id: "51"
+          start_time: 2026-07-03 11:00:00
+          end_time: 2026-07-03 12:15:00
+        - id: "56"
+          start_time: 2026-07-03 11:00:00
+          end_time: 2026-07-03 12:15:00
+        - id: "57"
+          start_time: 2026-07-03 11:00:00
+          end_time: 2026-07-03 12:15:00
+
+- title: Closing Remarks
+  start_time: 2026-07-03 12:15:00
+  end_time: 2026-07-03 12:30:00

@@ -1,0 +1,40 @@
+# Source: https://customnlp4u.github.io/
+# Use UTF-8 directly (no LaTeX escapes).
+
+- role: Organizers
+  members:
+    - first_name: Sheshera
+      last_name: Mysore
+      institution: Microsoft Office of Applied Research, USA
+    - first_name: Sachin
+      last_name: Kumar
+      institution: The Ohio State University and Allen Institute for AI, USA
+    - first_name: Vidhisha
+      last_name: Balachandran
+      institution: Microsoft Research, USA
+    - first_name: Shirley
+      middle_name: Anugrah
+      last_name: Hayati
+      institution: University of Minnesota, USA
+    - first_name: Faeze
+      last_name: Brahman
+      institution: Allen Institute for AI, USA
+    - first_name: Hanane
+      middle_name: Nour
+      last_name: Moussa
+      institution: The Ohio State University, USA
+    - first_name: Alireza
+      last_name: Salemi
+      institution: University of Massachusetts Amherst, USA
+
+- role: Steering Committee
+  members:
+    - first_name: Hamed
+      last_name: Zamani
+      institution: University of Massachusetts Amherst, USA
+    - first_name: Dongyeop
+      last_name: Kang
+      institution: University of Minnesota, USA
+    - first_name: Yulia
+      last_name: Tsvetkov
+      institution: University of Washington, USA

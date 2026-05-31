@@ -1,0 +1,1002 @@
+- abstract: 'AI-generated text detectors gain adoption in educational and professional
+    contexts, their fairness remains underexamined. While prior research has uncovered
+    isolated cases of bias, particularly against English Language Learners (ELLs),
+    there is a lack of systematic evaluation of such systems across broader sociolinguistic
+    factors. In this work, we propose a comprehensive evaluation framework for AI
+    detectors across various types of biases. As part of this framework, we introduce
+    a suite of targeted datasets spanning 7 major categories: demographics, age, educational
+    grade level, dialect, formality, political leaning, and topic. Using this, we
+    evaluate four open-source state-of-theart AI text detectors and find consistent
+    disparities in detection performance, particularly low recall rates for texts
+    from underrepresented groups. Our contributions provide a scalable, transparent
+    approach for auditing AI detectors and emphasize the need for bias-aware evaluation
+    before these tools are deployed for public use.'
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Priyam
+    homepage: https://whopriyam.github.io
+    last_name: Basu
+  - first_name: Yunfeng
+    homepage: https://zywind.github.io
+    institution: Twitter
+    last_name: Zhang
+  - dblp: https://dblp.org/pid/124/3068
+    first_name: Vipul
+    google_scholar: https://scholar.google.com/citations?user=-Ap77UMAAAAJ&hl=en
+    homepage: https://vipulraheja.github.io/
+    institution: Grammarly, Columbia University, Google and International Institute
+      of Information Technology Hyderabad, Dhirubhai Ambani Institute Of Information
+      and Communication Technology
+    last_name: Raheja
+    semantic_scholar: https://www.semanticscholar.org/author/Vipul-Raheja/2831377
+  end_page: 10
+  file: 1.pdf
+  id: '1'
+  num_pages: 10
+  start_page: 1
+  title: 'BAID: A Benchmark for Bias Assessment of AI Detectors'
+- abstract: This study seeks to test whether low-cost inference and efficient \emph{Small
+    Language Models} (SLMs) fine-tuned on existing open-source question answering
+    datasets are capable of creating financial literacy chat bots that can answer
+    financial questions for those with limited financial knowledge. The use of SLMs
+    is growing in popularity across many domains, but SLMs are not thoroughly explored
+    in the finance sector. This study offers an exploration of challenges and opportunities
+    that exist in the finance sector to utilize SLMs for open-source financial question
+    answering applications. In particular, this study examines the outputs of several
+    open-source SLMs fine-tuned on the open-source FinGPT FiQA\_QA financial question
+    answering dataset. We fine-tuned two versions of each model, one with an instruction
+    prompt and one without an instruction prompt and compared the model outputs with
+    ground truth human responses from the dataset. Further qualitative rating and
+    analysis are provided for model outputs and the dataset. The exploration highlighted
+    challenges with available open data and the fine-tuned SLMs. Existing open data
+    sets in the financial AI research community are not sufficient to produce high-quality
+    outputs with SLMs. Successful fine-tuning of SLMs has occurred in other domains
+    with high quality data sets. We thus issue a call for new and better open financial
+    question answering datasets that could result in higher-quality small language
+    models.
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Tagore
+    google_scholar: https://scholar.google.com/citations?view_op=new_profile&hl=en
+    homepage: https://pages.mtu.edu/~trkosire/
+    last_name: Kosireddy
+    middle_name: Rao
+  - dblp: https://dblp.org/pid/125/0490
+    first_name: Jeffrey
+    google_scholar: https://scholar.google.com/citations?user=gqRWP1UAAAAJ&hl=en
+    homepage: https://www.mtu.edu/business/people-groups/faculty/jeffrey-wall/
+    institution: Michigan Technological University
+    last_name: Wall
+    middle_name: David
+  - first_name: Evan
+    institution: Michigan Technological University
+    last_name: Lucas
+    semantic_scholar: https://www.semanticscholar.org/author/Evan-Lucas/2055561641
+  end_page: 23
+  file: 3.pdf
+  id: '3'
+  num_pages: 13
+  start_page: 11
+  title: 'Small Language Models for the Democratization of Financial Literacy: Challenges
+    and Opportunities'
+- abstract: "Vision Language Models (VLMs) are poised to revolutionize the digital\
+    \ transformation of pharmacyceutical industry by enabling intelligent, scalable,\
+    \ and automated multi-modality content processing. Traditional manual annotation\
+    \ of heterogeneous data modalities (text, images, video, audio, and web links),\
+    \ is prone to inconsistencies, quality degradation, and inefficiencies in content\
+    \ utilization. The sheer volume of long video and audio data further exacerbates\
+    \ these challenges, (e.g. long clinical trial interviews and educational seminars).\
+    \ Here, we introduce a domain-adapted Video-to-Video Clip Generation framework\
+    \ that integrates Audio-Language Models (ALMs) and Vision Language Models (VLMs)\
+    \ to produce highlight clips. Our contributions are threefold: (i) a reproducible\
+    \ Cut & Merge algorithm with fade-in/out and timestamp normalization, ensuring\
+    \ smooth transitions and audio/visual alignment; (ii) a personalization mechanism\
+    \ based on role definition and prompt injection for tailored outputs (marketing,\
+    \ training, regulatory); (iii) a cost-efficient e2e pipeline strategy balancing\
+    \ ALM/VLM-enhanced processing. Evaluations on Video-MME benchmark (900) and our\
+    \ proprietary dataset of 16,159 pharmacy videos across 14 disease areas demonstrate\
+    \ 3\u20134\xD7 speedup, 4\xD7 cost reduction, and competitive clip quality. Beyond\
+    \ efficiency gains, we also report our methods improved clip coherence scores\
+    \ (0.348) and informativeness scores (0.721) over state-of-the-art VLM baselines\
+    \ (e.g., Gemini 2.5 Pro), highlighting the potential of transparent, custom extractive,\
+    \ and compliance-supporting video summarization for life sciences. Demo: https://video-clips-highlight-generator-338849523617.us-west1.run.app/."
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Suyash
+    institution: F. Hoffmann-La Roche Ltd.
+    last_name: Mishra
+  - first_name: Qiang
+    google_scholar: https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F506MzXllcf4xzmzTnIQZ3-iYI_wb5EQUYhdF3zY1_15lLrW06EyE81JwJIHQVqMDfBN7kWfVHcIp0EItAppjVmJMlDxV_qCFX-0sjD0kao5ln-G4E&user=B3ebkOAAAAAJ
+    homepage: https://qiangli.de/
+    institution: Accenture
+    last_name: Li
+    orcid: https://orcid.org/0009-0000-2095-1792
+    semantic_scholar: https://www.semanticscholar.org/author/Qiang-Li/2146263688
+  - first_name: Anubhav
+    institution: F. Hoffmann-La Roche Ltd.
+    last_name: Girdhar
+  - first_name: Srikanth
+    last_name: Patil
+  end_page: 43
+  file: 5.pdf
+  id: '5'
+  num_pages: 20
+  start_page: 24
+  title: 'From Understanding to Engagement: Personalized pharmacy Video Clips via
+    Vision Language Models (VLMs)'
+- abstract: Accurate and timely diagnosis is essential for effective treatment, particularly
+    in the context of rare diseases. However, current diagnostic workflows often lead
+    to prolonged assessment times and low accuracy. To address these limitations,
+    we introduce Hygieia, an adaptive AI agent system designed to support precision
+    disease diagnosis by integrating diverse data sources, including phenotypic features,
+    genetic profiles, and clinical records. Hygieia features a router-based and knowledge-enhanced
+    framework that mitigates hallucination and tailors diagnostic strategies to different
+    disease categories. Notably, it prioritizes risk-related genomic factors for rare
+    diseases and provides confidence scores to assist clinical decision-making. We
+    conducted a comprehensive evaluation demonstrating that Hygieia achieves state-of-the-art
+    performance across multiple diagnostic benchmarks. In collaboration with clinical
+    experts from Yale School of Medicine and Duke-NUS Medical School, we further validated
+    its practical utility by showing (1) Hygieia's superior diagnostic performance
+    compared to physicians and (2) its effectiveness in assisting clinicians with
+    medical records for handling real-world cases. Our findings indicate that Hygieia
+    not only enhances diagnostic accuracy and interpretability but also significantly
+    reduces clinician workload, highlighting its potential as a valuable tool in clinical
+    decision support systems.
+  archival: false
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - dblp: https://dblp.org/pid/134/1099-5
+    first_name: Tianyu
+    google_scholar: https://scholar.google.com/citations?hl=en&user=GdkHHjkAAAAJ
+    homepage: https://helloworldlty.github.io/
+    institution: Alibaba Group
+    last_name: Liu
+    orcid: https://orcid.org/0000-0002-9412-6573
+  - first_name: Wangjie
+    google_scholar: https://scholar.google.com/citations?user=3IizlAUAAAAJ&hl=en
+    last_name: Zheng
+    orcid: https://orcid.org/0009-0009-8448-1852
+  - dblp: https://dblp.org/pid/249/5453
+    first_name: Weihao
+    google_scholar: https://scholar.google.com/citations?hl=en&user=7e0W-2AAAAAJ
+    homepage: https://weihaoxuan.com/
+    institution: The University of Tokyo and RIKEN
+    last_name: Xuan
+    orcid: https://orcid.org/0009-0001-4271-9035
+    semantic_scholar: https://www.semanticscholar.org/author/Weihao-Xuan/1387974253
+  - first_name: Rui
+    last_name: Yang
+    semantic_scholar: https://www.semanticscholar.org/author/Rui-Yang/2279666961
+  - dblp: https://dblp.org/pid/150/2596
+    first_name: Botao
+    google_scholar: https://scholar.google.com/citations?user=NbWw60wAAAAJ&hl=en
+    homepage: https://btyu.github.io/
+    institution: The Ohio State University
+    last_name: Yu
+    orcid: https://orcid.org/0000-0002-3386-6383
+    semantic_scholar: https://www.semanticscholar.org/author/Botao-Yu/2754371
+  - first_name: Kexin
+    google_scholar: https://scholar.google.com/citations?user=ogEXTOgAAAAJ&hl
+    homepage: https://www.kexinhuang.com/
+    last_name: Huang
+  - dblp: https://dblp.org/pid/86/4643-10
+    first_name: Nan
+    google_scholar: https://scholar.google.com/citations?hl=en&user=9Gq7BxoAAAAJ
+    homepage: https://nanlliu.github.io/
+    institution: Google
+    last_name: Liu
+  - first_name: Hongyu
+    google_scholar: https://scholar.google.com/citations?user=__z1kpoAAAAJ&hl=en
+    homepage: https://ysph.yale.edu/profile/hongyu-zhao/
+    institution: Yale University
+    last_name: Zhao
+  file: 12.pdf
+  id: '12'
+  title: A Versatile Multi-Modal Agent for Rare Disease Diagnosis and Risk Gene Prioritization
+- abstract: Despite advances in legal NLP, no comprehensive evaluation of Transformer-based
+    models customized for legal tasks (referred to as 'legal-specific' models in this
+    paper) exists for contract classification tasks. To address this gap, we present
+    an evaluation of 13 legal-specific transformer-based models on 3 English-language
+    contract classification tasks and compare them with 9 generalist models. The results
+    show that legal-specific models consistently outperform generalist models, especially
+    on tasks requiring nuanced legal understanding. They also help reduce misclassification
+    of rare classes in imbalanced datasets. Legal-BERT and Contracts-BERT establish
+    new SOTAs on two of the three tasks, despite having 69% fewer parameters than
+    the best-performing generalist models. We also identify CaseLaw-BERT and LexLM
+    as strong additional baselines for contract classification. Our results highlight
+    the shortcomings of generalist models, emphasizing the need for domain-specific
+    customization, particularly in the context of legal applications.
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Amrita
+    google_scholar: https://scholar.google.com/citations?user=1ZhL5nUAAAAJ&hl=en
+    homepage: https://amritasingh1205.github.io/
+    last_name: Singh
+  - first_name: H.
+    last_name: Karaca
+    middle_name: Suhan
+  - first_name: Aditya
+    google_scholar: https://scholar.google.com/citations?user=SbYRrvgAAAAJ&hl=en
+    homepage: https://www.unsw.edu.au/staff/aditya-joshi
+    institution: University of New South Wales
+    last_name: Joshi
+    orcid: https://orcid.org/0000-0003-2200-9703
+    semantic_scholar: https://www.semanticscholar.org/author/Aditya-Joshi/145714972
+  - dblp: https://dblp.org/pid/20/11
+    first_name: Hye-young
+    google_scholar: https://scholar.google.com/citations?user=JyyY5xw6AxgC
+    homepage: http://www.cse.unsw.edu.au/~hpaik
+    institution: University of New South Wales
+    last_name: Paik
+  - dblp: https://dblp.org/pid/217/3737
+    first_name: Jiaojiao
+    google_scholar: https://scholar.google.com/citations?user=s9ikcnkAAAAJ&hl=en
+    homepage: https://research.unsw.edu.au/people/dr-jiaojiao-jiang
+    institution: University of New South Wales
+    last_name: Jiang
+    orcid: https://orcid.org/0000-0001-7307-8114
+    semantic_scholar: https://www.semanticscholar.org/author/Jiaojiao-Jiang/47911170
+  end_page: 54
+  file: 14.pdf
+  id: '14'
+  num_pages: 11
+  start_page: 44
+  title: Evaluating Customized vs. Generalist Transformer-based Models for Legal Contract
+    Classification
+- abstract: We focus on personalized news headline generation, where we aim to improve
+    headline generation by extending the generation context to incorporate the news
+    reading history of users. In particular, we study a RAG-LLM-based system that
+    customizes news headlines with user histories to improve news headline personalization.
+    Our experiments show that our approach not only produces better headlines for
+    specific users, but also makes the generated headlines closer to the original
+    headlines. We experiment with different retrievers and analyze the generated outputs
+    through systematic comparisons with both original and rewritten headlines. These
+    analyses provide insights into the role of retrieval and personalization in headline
+    generation, highlighting how the user history contributes to meaningful improvement
+    while remaining aligned with original headlines.
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Jiajing
+    homepage: https://mediafutures.no/2024/10/14/jiajing-wan/
+    last_name: Wan
+  - dblp: https://dblp.org/pid/148/4526
+    first_name: Samia
+    google_scholar: https://scholar.google.no/citations?user=-9vmnigAAAAJ&hl=en
+    homepage: https://www.uib.no/en/persons/Samia.Touileb
+    institution: University of Bergen
+    last_name: Touileb
+    semantic_scholar: https://www.semanticscholar.org/author/Samia-Touileb/3083347
+  - dblp: https://dblp.org/pid/93/4765
+    first_name: Lubos
+    google_scholar: https://scholar.google.com/citations?user=QNlJnTkAAAAJ
+    institution: TV 2 Norway
+    last_name: Steskal
+    orcid: https://orcid.org/0009-0001-8216-6914
+  - dblp: https://dblp.org/pid/03/6797
+    first_name: Lilja
+    google_scholar: https://scholar.google.no/citations?user=bQl3dcUAAAAJ&hl=no
+    homepage: https://www.mn.uio.no/ifi/english/people/aca/liljao/
+    institution: Dept. of Informatics, University of Oslo
+    last_name: "\xD8vrelid"
+    semantic_scholar: https://www.semanticscholar.org/author/Lilja-%C3%98vrelid/2732223
+  end_page: 67
+  file: 16.pdf
+  id: '16'
+  num_pages: 13
+  start_page: 55
+  title: Personalizing News Headlines with Retrieval-Augmented Generation
+- abstract: Retrieval-augmented generation (RAG) has emerged as an effective paradigm
+    for grounding large language models in external knowledge, yet most existing RAG
+    systems assume centralized knowledge access and ample computation. These assumptions
+    break down in edge environments, where knowledge is fragmented across devices,
+    raw data cannot be shared, and repeated LLM calls are prohibitively expensive.
+    We propose FD-RAG, a federated dual-system RAG framework that decouples lightweight
+    memory access from on-demand LLM reasoning for decentralized deployment. Specifically,
+    FD-RAG learns semantic-aware adaptive hypergraphs over local corpora and distills
+    them into compact QA memories. At inference time, it answers well-covered queries
+    via direct memory matching and invokes LLM-based reasoning only when necessary,
+    while tracing retrieved memories to hypergraph-grounded evidence. To mitigate
+    cross-device knowledge fragmentation, FD-RAG further aggregates anonymized memories
+    across devices without exposing raw documents. Experiments on standard QA benchmarks
+    show that FD-RAG improves accuracy by up to 7.8\% while reducing latency by 8.4$\times$
+    compared with strong local and federated baselines. We also provide theoretical
+    analysis establishing an $\mathcal{O}(1/\epsilon^{2})$ convergence rate for the
+    proposed hypergraph learning, supporting its tractable deployment in edge settings.
+  archival: false
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Tianhao
+    homepage: https://github.com/gaoxi
+    institution: Tongji University
+    last_name: Gao
+  - dblp: https://dblp.org/pid/17/2247-1
+    first_name: Kai
+    google_scholar: https://scholar.google.com/citations?user=irQuUaYAAAAJ&hl=en
+    homepage: https://kaiyangcn.github.io/
+    institution: Tongji University, Tsinghua University
+    last_name: Yang
+  - first_name: Yiyang
+    homepage: https://github.com/Kuisda
+    last_name: Li
+  file: 18.pdf
+  id: '18'
+  title: 'FD-RAG: Federated Dual-System Retrieval-Augmented Generation'
+- abstract: Intent classification is essential for customer service routing, connecting
+    customers to the appropriate agents and reducing handling time and operational
+    cost. Developing a real-world multi-turn intent classification system is challenging
+    due to complex intent taxonomies, dynamic intent switching within conversations,
+    and limited labeled training data. To address these challenges, we propose a scalable
+    multi-turn intent classification framework for e-commerce customer service that
+    models intent along multiple dimensions. We introduce LLM-based labeling strategies
+    to annotate real customer transcripts at scale and augment training with LLM-simulated
+    multi-turn dialogues that expand coverage of topic and intent switches, which
+    are rare in existing transcripts. Through extensive experiments, we find that
+    explanation-guided labeling with a self-critique step produces the most accurate
+    training labels. Fine-tuned models built on a RoBERTa backbone outperform zero-shot
+    LLM prompting while achieving substantially lower inference latency. Finally,
+    we show that a hybrid approach that combines the fine-tuned classifier with LLM
+    prompting further improves accuracy over either component alone. Overall, our
+    results provide practical guidance for building and deploying high-accuracy, low-latency,
+    large-scale multi-turn intent classification systems.
+  archival: false
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Kaiqi
+    institution: Amazon
+    last_name: Bian
+  - first_name: Biancen
+    homepage: https://www.amazon.science/author/biancen-xie
+    institution: Amazon
+    last_name: Xie
+  - first_name: Jai
+    institution: Amazon
+    last_name: Gusain
+    middle_name: Ranjan Singh
+  - first_name: Manikandarajan
+    institution: Amazon
+    last_name: Ramanathan
+  - first_name: Rajashekar
+    institution: Amazon
+    last_name: Maragoud
+  file: 19.pdf
+  id: '19'
+  title: Building Multi-turn Intent Classification with LLM-based Labeling
+- abstract: 'Cross-tokenizer distillation (CTD), the transfer of knowledge from a
+    teacher to a student language model when the two use different tokenizers, remains
+    a largely unsolved problem. Existing approaches rely on heuristic strategies to
+    align mismatched vocabularies, introducing considerable complexity. In this paper,
+    we propose a simple but effective baseline called Byte-Level Distillation (BLD)
+    which enables CTD by operating at a common interface across tokenizers: the byte
+    level. In more detail, we convert the teacher''s output distribution to byte-level
+    probabilities, attach a lightweight byte-level decoder head to the student, and
+    distill through this shared byte-level interface. Despite its simplicity, BLD
+    performs competitively with--and on several benchmarks surpasses--significantly
+    more sophisticated CTD methods, across a range of distillation tasks with models
+    from 1B to 8B parameters. Our results suggest that the byte level is a natural
+    common ground for cross-tokenizer knowledge transfer, while also highlighting
+    that consistent improvements across all tasks and benchmarks remain elusive, underscoring
+    that CTD is still an open problem.'
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - dblp: https://dblp.org/pid/332/1231.html
+    first_name: Avyav
+    google_scholar: https://scholar.google.com/citations?user=N8bL7_UAAAAJ&hl=en
+    last_name: Singh
+    middle_name: Kumar
+    semantic_scholar: https://www.semanticscholar.org/author/Avyav-Kumar-Singh/2189412506
+  - dblp: https://dblp.org/pid/164/6109
+    first_name: Yen-Chen
+    homepage: https://sites.google.com/view/yenchenwu/home?authuser=0
+    last_name: Wu
+  - dblp: https://dblp.org/pid/288/0091.html
+    first_name: Alexandru
+    last_name: Cioba
+  - dblp: https://dblp.org/pid/68/9669
+    first_name: Alberto
+    google_scholar: https://scholar.google.com/citations?user=n48pFqcAAAAJ&hl=en
+    institution: MedaiTek Research
+    last_name: Bernacchia
+  - dblp: https://dblp.org/pid/267/1651
+    first_name: Davide
+    google_scholar: https://scholar.google.com/citations?user=v28My7wAAAAJ&hl=en
+    homepage: https://davidebuffelli.github.io
+    institution: MediaTek Research
+    last_name: Buffelli
+    orcid: https://orcid.org/0000-0001-5565-1634
+  end_page: 80
+  file: 24.pdf
+  id: '24'
+  num_pages: 13
+  start_page: 68
+  title: Cross-Tokenizer LLM Distillation through a Byte-Level Interface
+- abstract: 'Plain Language Summarization (PLS) generates summaries of technical documents
+    accessible to non-expert audiences. Readability -- commonly used to evaluate PLS
+    -- has often been treated coarsely (expert vs. lay) although it exists on a spectrum
+    with different levels for different readers. We propose a light weight control
+    vector method for fine-grained readability control in scientific summarization
+    along with a requirements-based framework for data selection. Our framework enforces:
+    (1) readability levels differ substantially, and (2) paired examples share comparable
+    content. Under this, control vectors enable more precise readability control than
+    other popular methods.'
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - dblp: https://dblp.org/pid/224/6055
+    first_name: Isabel
+    google_scholar: https://scholar.google.com/citations?hl=en&user=TPyWfi4AAAAJ
+    homepage: https://isabelcachola.com/
+    institution: Department of Computer Science, Whiting School of Engineering
+    last_name: Cachola
+    semantic_scholar: https://www.semanticscholar.org/author/Isabel-Cachola/51199773
+  - dblp: https://dblp.org/pid/277/0487
+    first_name: Kuleen
+    google_scholar: https://scholar.google.com/citations?user=M6-o86kAAAAJ&hl=en
+    homepage: https://kuleens.github.io/
+    institution: Johns Hopkins University
+    last_name: Sasse
+    semantic_scholar: https://www.semanticscholar.org/author/Kuleen-Sasse/2003602481
+  - dblp: https://dblp.org/pid/31/5468
+    first_name: Mark
+    google_scholar: https://scholar.google.com.tw/citations?user=7jNkTbYAAAAJ
+    homepage: http://www.cs.jhu.edu/~mdredze/
+    institution: Department of Computer Science, Whiting School of Engineering and
+      Bloomberg
+    last_name: Dredze
+    orcid: https://orcid.org/0000-0002-0422-2474
+    semantic_scholar: https://www.semanticscholar.org/author/Mark-Dredze/1782853
+  end_page: 100
+  file: 26.pdf
+  id: '26'
+  num_pages: 20
+  start_page: 81
+  title: Fine-grained Readability Controlled Summarization of Scientific Documents
+    via Control Vectors
+- abstract: 'Utilizing LLMs for automated taxonomy construction presents a clear opportunity
+    for the comprehensive, yet efficient mapping of potentially complex domains. When
+    contending with high volumes of rapidly growing corpora, however, it becomes unclear
+    how to best leverage such data for optimal taxonomy construction. Taking the case
+    of systematizing *AI skills in the workplace*, we use two large-scale job postings
+    corpora to investigate key design decisions for the inclusion (or exclusion) of
+    data points for taxonomy construction. We propose **TaxonomyBuilder** as a blueprint
+    for our systematic study, with which we evaluate various configurations of custom,
+    data-informed, and hierarchical taxonomies. We demonstrate that *less* data can
+    provide more clarity: filtering inputs to **TaxonomyBuilder** provides better
+    domain-specific coverage than offering unfiltered inputs to clustering and LLM-enhanced
+    hierarchical taxonomy labeling tools.'
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - dblp: https://dblp.org/pid/326/8319
+    first_name: Stephen
+    google_scholar: https://scholar.google.com/citations?hl=en&user=B6Ggz5wAAAAJ
+    last_name: Meisenbacher
+    orcid: https://orcid.org/0000-0001-9230-5001
+    semantic_scholar: https://www.semanticscholar.org/author/Stephen-Meisenbacher/2175482752
+  - first_name: Peter
+    google_scholar: https://scholar.google.com/citations?user=keYnkoIAAAAJ&hl=en
+    homepage: https://www.luc.edu/quinlan/whyquinlan/facultyandstaff/profiles/norlanderpeter.shtml
+    last_name: Norlander
+    orcid: https://orcid.org/0000-0001-8347-7653
+  end_page: 114
+  file: 29.pdf
+  id: '29'
+  num_pages: 14
+  start_page: 101
+  title: Building a Custom Taxonomy of AI Skills and Tasks from the Ground Up with
+    Job Postings
+- abstract: 'Large language models are known to be vulnerable to adversarial perturbations
+    such as synonym-based word substitutions. However, previous analyses of adversarial
+    influence focus only on output behavior and provide limited insight into the propagation
+    of substitution-based input perturbations through internal representations. In
+    this work, we introduce a topological data analysis (TDA) framework to study the
+    structural effects of adversarial attacks on attention maps across model layers.
+    We evaluate small encoder-based architectures (BERT, RoBERTa, DistilBERT) fine-tuned
+    to solve binary classification on the IMDb review dataset, which were attacked
+    using TextFooler. We convert attention maps into distance matrices and apply TDA
+    to extract topological features, which we then compare using Wasserstein distances
+    between original and perturbed features. In parallel, we compute a non-TDA baseline
+    on attention maps using per-head $L_1$ distances between original and perturbed
+    attentions. In addition, we analyze these models on a layer-by-layer basis. We
+    find that adversarial perturbations induce systematic and statistically significant
+    topological changes across layers, with the largest deviations occurring in late
+    layers and smaller but notable effects in early layers. These patterns are consistent
+    across models and are validated using both non-parametric (Kruskal--Wallis, Dunn)
+    and parametric (one-way ANOVA, Tukey) tests on log-transformed Wasserstein distances.
+    Compared to our non-TDA baseline, our results show more distinct layer-wise separation
+    and provides a robust and interpretable framework for evaluating how adversarial
+    perturbations alter internal model structure. Our code is publicly available at:
+    https://github.com/angelinatsai04/mitll_clinic/tree/adam_spring.'
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Adam
+    institution: Harvey Mudd College
+    last_name: Tang
+  - first_name: Catherine
+    last_name: Liu
+  - first_name: Kimberly
+    last_name: Lopez
+  - first_name: Shreya
+    last_name: Subramanian
+  - first_name: Leif
+    homepage: https://www.hmc.edu/mathematics/faculty-staff/
+    last_name: Zinn-Brooks
+  - first_name: Alexia
+    google_scholar: https://scholar.google.com/citations?user=ppGswzAAAAAJ&hl=en
+    homepage: https://www.ll.mit.edu/biographies/alexia-e-schulz
+    last_name: Schulz
+    middle_name: E.
+  - dblp: https://dblp.org/pid/244/0488.html
+    first_name: Adaku
+    google_scholar: https://scholar.google.com/citations?user=A4be1l4AAAAJ&hl=en
+    homepage: https://adauchendu.github.io/
+    institution: MIT Lincoln Laboratory
+    last_name: Uchendu
+    semantic_scholar: https://www.semanticscholar.org/search?q=%22Adaku%20Uchendu%22&sort=relevance
+  end_page: 132
+  file: 33.pdf
+  id: '33'
+  num_pages: 18
+  start_page: 115
+  title: Using Topological Data Analysis to Characterize the Layers of Language Models
+    Before and After Word Substitution Attacks
+- abstract: Research in language documentation has the potential to benefit from integration
+    of ASR models, especially through the assisted transcription of recordings with
+    audio. Recent advancements in ASR for low-resource languages demonstrate the ability
+    to adapt general, multilingual models for unseen languages with limited fine-tuning
+    data, supporting the creation of custom ASR models. However, resources are still
+    required to collect and prepare the fine-tuning data, necessitating exploration
+    of optimization of resource allocation within the process of data collection and
+    preparation. This paper outlines important considerations for the collection and
+    preparation of data for customizing an ASR model for use in language documentation
+    projects. With the development of a Lamkang ASR model as an example, prioritization
+    of tasks within a language documentation project is outlined by analyzing the
+    relative impact of time spent on transcription correction versus time spent on
+    manual alignment on ASR model performance. Results from this research suggest
+    prioritization of transcription correction over manual-alignment of data and suggest
+    fine-tuning multilingual ASR systems produces superior results to zero-shot ASR
+    models, despite recent advancements in the technology.
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Alexandra
+    google_scholar: https://scholar.google.com/citations?hl=en&user=jj3rHM8AAAAJ
+    institution: Indiana University
+    last_name: Fort
+    semantic_scholar: https://www.semanticscholar.org/author/Alexandra-Fort/2387457997
+  - first_name: Shobhana
+    homepage: https://corsal.unt.edu
+    institution: Indiana University at Bloomington
+    last_name: Chelliah
+    middle_name: Lakshmi
+  end_page: 143
+  file: 34.pdf
+  id: '34'
+  num_pages: 11
+  start_page: 133
+  title: Customizing ASR for Language Documentation and Resource Prioritization
+- abstract: 'The presence of factuality errors (hallucinations) in the outputs of
+    patient-facing medical chatbots is a serious problem: they can lead to patient
+    harm and erode people''s trust in the medical profession. For this reason, it
+    is crucial to detect hallucinations in chatbot outputs and forward them to clinicians
+    for review. In this paper, we present the system we built for detecting such errors:
+    it consists of multiple LLM-powered detectors which are combined together with
+    a novel alignment procedure. We ran our system on the MedExpert-Benchmark dataset
+    (Yarmohammadi et al., 2025) and our results on two use cases, Mental Health and
+    Prenatal Care, show that the combined system gives nice gains over the individual
+    systems. Additionally, we show that further customization of the system to each
+    one of the use cases leads to further gains, but at the cost of reduced generalizability.
+    Our code and dataset are available here: https://github.com/BBN-E/medic-customnlp4u.'
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Jonathan
+    google_scholar: https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH8HC4wKnp7pivheDl6saJQCMO6jxYbfiFGLHpjd8srFp8WAsQT0qntEV8d4gf9NckTlGr1mnKk5ZmMnpwDZ3A&user=igLTljAAAAAJ
+    homepage: http://www.cs.jhu.edu/~jlasko
+    institution: RTX BBN Technologies
+    last_name: Lasko
+  - first_name: Damianos
+    last_name: Karakos
+  - dblp: https://dblp.org/pid/194/1184.html
+    first_name: Francis
+    institution: RTX BBN Technologies
+    last_name: Keith
+  end_page: 150
+  file: 35.pdf
+  id: '35'
+  num_pages: 7
+  start_page: 144
+  title: Improving Medical Hallucination Detection with System Combination and Rule-based
+    Customization
+- abstract: Large language models are widely used by everyday users, and can be asked
+    to perform tasks that require specialized expertise, such as interpreting contractual
+    terms and conditions, filing personal taxes, or diagnosing medical symptoms. Although
+    these tools should not be used in place of professional advice, they can be useful
+    starting points for users seeking professional help, improving users' access and
+    interactions with professionals. In this vein, this paper introduces a legal question
+    reformulation task to assist non-experts in their interactions with lawyers. This
+    has the potential to streamline discussions between lawyers and clients, who may
+    not know the correct legal language to communicate their needs. Using a novel
+    evaluation framework informed by legal expertise, we investigate the quality of
+    model-generated legal question reformulations on in-the-wild data from non-experts
+    seeking legal advice. Our findings indicate that LLMs have significant potential
+    in legal reasoning, but some unexpected safety concerns may emerge. Further, adding
+    linguistically-aligned in-domain text samples can improve performance for smaller
+    models, even when the samples are not aligned factually with the given question.
+  archival: false
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - dblp: https://dblp.org/pid/295/9795.html
+    first_name: Katherine
+    google_scholar: https://scholar.google.com/citations?user=VcmM93MAAAAJ&hl=en
+    homepage: https://katherine-atwell.github.io/
+    institution: Northeastern University and University of Pittsburgh
+    last_name: Atwell
+    semantic_scholar: https://www.semanticscholar.org/author/Katherine-Atwell/2115500561
+  - dblp: https://dblp.org/pid/245/3483
+    first_name: Morgan
+    google_scholar: https://scholar.google.com/citations?user=50_PZ4MAAAAJ&hl=en
+    homepage: https://morganalexandergray.github.io
+    institution: University of Saint Thomas (MN) and University of Pittsburgh
+    last_name: Gray
+    middle_name: A.
+    orcid: https://orcid.org/0000-0002-3800-2103
+    semantic_scholar: https://www.semanticscholar.org/author/Morgan-A.-Gray/153686195
+  - dblp: https://dblp.org/pid/05/11075.html
+    first_name: Jaromir
+    google_scholar: https://scholar.google.com/citations?user=02Dvk88AAAAJ
+    homepage: https://www.cs.cmu.edu/~jsavelka/
+    institution: Carnegie Mellon University
+    last_name: Savelka
+    orcid: https://orcid.org/0000-0002-3674-5456
+    semantic_scholar: https://www.semanticscholar.org/author/Jarom%C3%ADr-%C5%A0avelka/2313931
+  - first_name: Len
+    institution: Allegheny County Department of Human Services
+    last_name: Rial
+  - first_name: Sera
+    homepage: http://linardi.gspia.pitt.edu
+    institution: University of Pittsburgh
+    last_name: Linardi
+  - dblp: https://dblp.org/pid/163/2171
+    first_name: Malihe
+    google_scholar: https://scholar.google.com/citations?user=w24_ETkAAAAJ&hl=en
+    homepage: https://www.malihealikhani.com/
+    institution: 'Northeastern University '
+    last_name: Alikhani
+    semantic_scholar: https://www.semanticscholar.org/author/Malihe-Alikhani/2715920
+  file: 36.pdf
+  id: '36'
+  title: 'Asking the Right Questions: Can expert-prompted LLMs reformulate legal queries
+    from non-experts?'
+- abstract: "Small language models often struggle with complex mathematical reasoning\
+    \ due to limited capacity to maintain long chains of intermediate steps and to\
+    \ recover from early errors. We address this challenge by introducing a hint-assisted\
+    \ reasoning framework that incrementally guides small language models through\
+    \ multi-step mathematical problem solving. Our approach decomposes solutions into\
+    \ sequential reasoning steps and provides context-aware hints, where hints are\
+    \ generated by a separate small language model trained via distillation from a\
+    \ stronger LLM. While the hint-generating SLM alone is not capable of solving\
+    \ the problems, its collaboration with a reasoning SLM enables effective guidance,\
+    \ forming a cooperative two-model system for reasoning. Each hint is generated\
+    \ conditionally on the problem statement and the accumulated reasoning history,\
+    \ providing stepwise, localized guidance without revealing full solutions. This\
+    \ reduces error propagation and allows the reasoning model to focus on manageable\
+    \ subproblems. Experiments across diverse mathematical benchmarks and models demonstrate\
+    \ that hint assistance consistently improves reasoning accuracy for small language\
+    \ models, yielding substantial gains over standard prompting while preserving\
+    \ model efficiency. These results highlight that structured collaboration between\
+    \ small models\u2014via hint generation and reasoning\u2014offers an effective\
+    \ and lightweight mechanism for enhancing mathematical reasoning."
+  archival: false
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - dblp: https://dblp.org/pid/383/0003
+    first_name: Jawad
+    google_scholar: https://scholar.google.com/citations?user=r67vBKEAAAAJ&hl=en
+    homepage: https://jawad039.github.io/
+    institution: State University of New York at Albany
+    last_name: Hossain
+    orcid: https://orcid.org/0009-0006-6051-8989
+    semantic_scholar: https://www.semanticscholar.org/author/Jawad-Hossain/2269456999
+  - first_name: Xiangyu
+    google_scholar: https://scholar.google.com/citations?user=BMIYUw8AAAAJ
+    homepage: https://xyguo.github.io
+    institution: State University of New York at Buffalo
+    last_name: Guo
+  - dblp: https://dblp.org/pid/126/4991-1
+    first_name: Jiawei
+    google_scholar: https://scholar.google.com/citations?hl=en&user=fgwOGB4AAAAJ
+    homepage: https://joezhouai.com/
+    institution: State University of New York at Stony Brook
+    last_name: Zhou
+    orcid: https://orcid.org/0000-0001-5590-6270
+    semantic_scholar: https://www.semanticscholar.org/author/Jiawei-Zhou/46618542
+  - dblp: https://dblp.org/pid/47/2929-7.html
+    first_name: Chong
+    google_scholar: https://scholar.google.com/citations?hl=en&user=1JFG0s0AAAAJ
+    homepage: https://chong-l.github.io/
+    institution: State University of New York at Albany
+    last_name: Liu
+    orcid: https://orcid.org/0000-0002-7028-7508
+  file: 42.pdf
+  id: '42'
+  title: 'Hint-Assisted Reasoning: Improving Mathematical Problem Solving in Small
+    Language Models'
+- abstract: 'Can large language models (LLMs) generate continuous numerical features
+    that improve reinforcement learning (RL) trading agents? We build a modular pipeline
+    where a frozen LLM serves as a stateless feature extractor, transforming unstructured
+    daily news and filings into a fixed-dimensional vector consumed by a downstream
+    PPO agent. We introduce an automated prompt-optimization loop that treats the
+    extraction prompt as a discrete hyperparameter and tunes it directly against the
+    Information Coefficient---the Spearman rank correlation between predicted and
+    realized returns---rather than NLP losses. The optimized prompt discovers genuinely
+    predictive features (IC above $\sim$0.15 on held-out data). However, these valid
+    intermediate representations do not automatically translate into downstream task
+    performance: during a distribution shift caused by a macroeconomic shock, LLM-derived
+    features add noise, and the augmented agent under-performs a price-only baseline.
+    In a calmer test regime the agent recovers, yet macroeconomic state variables
+    remain the most robust driver of policy improvement. Our findings highlight a
+    gap between feature-level validity and policy-level robustness that parallels
+    known challenges in transfer learning under distribution shift.'
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Zhengzhe
+    google_scholar: https://scholar.google.com/citations?hl=en&user=bninaloAAAAJ
+    institution: Google
+    last_name: Yang
+    orcid: https://orcid.org/0009-0000-6258-6455
+  end_page: 159
+  file: 45.pdf
+  id: '45'
+  num_pages: 9
+  start_page: 151
+  title: 'When Valid Signals Fail: Regime Boundaries Between LLM Features and RL Trading
+    Policies'
+- abstract: 'Modern conversational AI systems frequently rely on user metadata to
+    localize responses, yet the unintended regional biases introduced by this hidden
+    context remain poorly understood. In this work, we evaluate _location leakage_:
+    the phenomenon where a model generates geographic references despite receiving
+    a geographically neutral user prompt. Across both creative writing and open-ended
+    Q\&A prompts, even state-of-the-art LLMs systematically favor region-specific
+    outputs when exposed to location metadata, with leakage spiking by up to 793 times
+    above baseline (e.g., from 0.04\% to 31.7\% for Llama 3.1-8B, and 21.3\% and 8.8\%
+    for Qwen3-8B and Claude Sonnet 4.6, respectively). Our analysis further shows
+    a novel structural conditioning effect: replacing the injected location with the
+    placeholder "Unknown" still elevates leakage by up to 72 times above baseline,
+    demonstrating that the user profile frame itself, independent of any geographic
+    content, acts as a generative conditioning signal.'
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Naz
+    homepage: https://doganazcol.github.io/
+    last_name: Col
+  - dblp: https://dblp.org/pid/80/9659
+    first_name: David
+    google_scholar: https://scholar.google.com/citations?user=qa4M89wAAAAJ&hl=en
+    homepage: https://people.eecs.berkeley.edu/~davidchan/
+    institution: University of California, Berkeley
+    last_name: Chan
+    middle_name: M.
+  end_page: 170
+  file: 46.pdf
+  id: '46'
+  num_pages: 11
+  start_page: 160
+  title: Unintended Effects of Geographic Conditioning in Large Language Models
+- abstract: "Retrieval-augmented generation (RAG) is widely used in domain-specific\
+    \ and knowledge-intensive applications, where long prompts increase inference\
+    \ cost and may exceed context limits. Prompt compression is therefore appealing,\
+    \ but existing evaluations focus primarily on answer quality, overlooking whether\
+    \ compressed systems remain faithful to the retrieved evidence. In this paper,\
+    \ we ask: does compression that preserves answers also preserve grounding? Using\
+    \ Self-RAG and LLMLingua-2 in a controlled setting, we evaluate compressed RAG\
+    \ on ASQA in terms of both answer correctness and citation grounding. Under increasing\
+    \ compression, answer correctness drops by only 2-4%, whereas grounding drops\
+    \ by 40-50\\%. This stark divergence shows that answer\u2011only evaluation can\
+    \ substantially overestimate the reliability of compressed RAG in evidence\u2011\
+    aware scenarios. We further propose a lightweight hierarchical compression strategy\
+    \ that prioritizes evidence\u2011bearing spans. It recovers nearly all grounding\
+    \ loss while maintaining comparable answer quality. Our results reveal a clear\
+    \ trade\u2011off between efficiency and verifiability, and suggest that compression\
+    \ in RAG should be customized to downstream verification needs rather than treated\
+    \ as a one\u2011size\u2011fits\u2011all efficiency intervention."
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Aiyu
+    institution: Xi'an Jiaotong-Liverpool University
+    last_name: Li
+    orcid: https://orcid.org/0009-0009-9594-0022
+  - first_name: Qian
+    last_name: Peng
+    orcid: https://orcid.org/0009-0002-7654-4218
+  - first_name: Bin
+    google_scholar: https://scholar.google.com.au/citations?user=Ydv8HYcAAAAJ
+    institution: Xi'an Jiaotong-Liverpool University
+    last_name: Chen
+    orcid: https://orcid.org/0000-0002-5239-596X
+  end_page: 184
+  file: 49.pdf
+  id: '49'
+  num_pages: 14
+  start_page: 171
+  title: 'Efficiency vs. Verifiability in Evidence-Aware RAG: Does Prompt Compression
+    Preserve Citation Grounding?'
+- abstract: "Language model users often embed personal and social context in their\
+    \ questions. The asker's role\u2014implicit in how the question is framed\u2014\
+    creates specific needs for an appropriate response. However, most evaluations,\
+    \ while capturing the model's capability to respond, often ignore who is asking.\
+    \ This gap is especially critical in stigmatized domains such as opioid use disorder\
+    \ (OUD), where accounting for users' contexts is essential to provide accessible,\
+    \ stigma-free responses. We propose CORUS (COmmunity-driven Roles for User-centric\
+    \ Question Simulation), a framework for simulating role-based questions. Drawing\
+    \ on role theory and posts from an online OUD recovery community (r/OpiatesRecovery),\
+    \ we first build a taxonomy of asker roles\u2014patients, caregivers, practitioners.\
+    \ Next, we use it to simulate 15,321 questions that embed each role's goals, behaviors,\
+    \ and experiences. Our evaluations show that these questions are both highly believable\
+    \ and comparable to real-world data. When used to evaluate five LLMs, for the\
+    \ same question but differing roles, we find systematic differences: vulnerable\
+    \ roles, such as patients and caregivers, elicit more supportive responses (+17%)\
+    \ and reduced knowledge content (-19%) in comparison to practitioners. Our work\
+    \ demonstrates how implicitly signaling a user's role shapes model responses,\
+    \ and provides a methodology for role-informed evaluation of conversational AI."
+  archival: false
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - dblp: https://dblp.org/pid/246/7369-2
+    first_name: Navreet
+    google_scholar: https://scholar.google.com/citations?user=97o1HRgAAAAJ&hl=en
+    homepage: https://navreeetkaur.github.io
+    institution: University of Washington
+    last_name: Kaur
+    semantic_scholar: https://www.semanticscholar.org/author/Navreet-Kaur/2274104582
+  - dblp: https://dblp.org/pid/420/1439
+    first_name: Hoda
+    google_scholar: https://scholar.google.com/citations?user=bUBttxEAAAAJ&hl=en&authuser=1&oi=sra
+    institution: University of Washington
+    last_name: Ayad
+    semantic_scholar: https://www.semanticscholar.org/author/Hoda-Ayad/2386620859
+  - dblp: https://dblp.org/pid/205/5820
+    first_name: Hayoung
+    google_scholar: https://scholar.google.com/citations?hl=en&user=5OJnFjkAAAAJ
+    homepage: https://hayoungjung.me
+    institution: Department of Computer Science
+    last_name: Jung
+    semantic_scholar: https://www.semanticscholar.org/author/Hayoung-Jung/2300424756
+  - dblp: https://dblp.org/pid/224/0099
+    first_name: Shravika
+    google_scholar: https://scholar.google.com/citations?user=wpjLOG4AAAAJ&hl=en
+    homepage: https://mittalshravika.github.io/
+    last_name: Mittal
+    orcid: https://orcid.org/0000-0002-4888-7996
+    semantic_scholar: https://www.semanticscholar.org/author/Shravika-Mittal/51153237
+  - dblp: https://dblp.org/pid/76/3034.html
+    first_name: Munmun
+    google_scholar: https://scholar.google.com/citations?user=Z9Pfp6UAAAAJ&hl=en&oi=ao
+    homepage: https://www.munmund.net
+    last_name: De Choudhury
+    orcid: https://orcid.org/0000-0002-8939-264X
+    semantic_scholar: https://www.semanticscholar.org/author/Munmun-De-Choudhury/2251664569
+  - dblp: https://dblp.org/pid/38/11520.html
+    first_name: Tanu
+    google_scholar: https://scholar.google.com/citations?user=5q_BkVAAAAAJ&hl=en
+    homepage: http://tanumitra.com/
+    institution: University of Washington
+    last_name: Mitra
+  file: 51.pdf
+  id: '51'
+  title: Who's Asking? Simulating Role-Based Questions for Conversational AI Evaluation
+- abstract: "Customizing an LLM judge to a specific task or domain often involves\
+    \ optimizing its prompt across multiple evaluation criteria simultaneously. Textual\
+    \ gradient methods automate this for a single judge criterion, however they produce\
+    \ natural-language critiques, not numerical vectors. Thus, the conflict-resolution\
+    \ toolkit of multi-task learning (PCGrad, MGDA) doesn't apply to the multi-objective\
+    \ textual gradient setting. We test five decomposition modes of textual gradient\
+    \ optimizers by varying how much cross-task information the loss, gradient and\
+    \ optimizer LLMs share. In 6 of 10 configurations on SummEval, we observe that\
+    \ optimization never improves over the initial prompt. Gradient specificity drops\
+    \ by 59% (from 9.0 to 3.7) when the gradient LLM processes multiple criteria jointly.\
+    \ Separately, we observe that naively combining per-task instructions into a single\
+    \ prompt degrades Spearman's \u03C1 by -5.3%. These results identify two separable\
+    \ failure modes: optimization-time gradient dilution and inference-time instruction\
+    \ interference, which together constrain the design space for multi-objective\
+    \ judge customization using textual feedback."
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - first_name: Parth
+    last_name: Darshan
+  - dblp: https://dblp.org/pid/230/4040
+    first_name: Abhishek
+    google_scholar: https://scholar.google.com/citations?user=1Sf2oM4AAAAJ&hl=en
+    homepage: https://adivekar-utexas.github.io
+    last_name: Divekar
+    semantic_scholar: https://www.semanticscholar.org/author/Abhishek-Divekar/51929228
+  end_page: 195
+  file: 56.pdf
+  id: '56'
+  num_pages: 11
+  start_page: 185
+  title: 'When Gradients Collide: Failure Modes of Multi-Objective Prompt Optimization
+    for LLM Judges'
+- abstract: Low-resource authorship style transfer (LAST) aims to rewrite text in
+    the style of an arbitrary target author using only a few reference examples while
+    preserving the original meaning. Existing methods often struggle to achieve both
+    high style fidelity and semantic preservation because they compress diverse references
+    into a single static author embedding, which averages out context-dependent stylistic
+    variation, and rely on hidden representations for style control, which entangle
+    style with content. We propose HyperStyler, a novel architecture that decouples
+    LAST into style inference and style realization. Stylo-navigator predicts context-dependent
+    style coordinates by jointly modeling the source context and target-author references,
+    while Stylo-hypernet realizes them via dynamic parameter modulation instead of
+    hidden-state injection. By shifting authorship control to the parameter space,
+    HyperStyler enables more faithful and controllable style transfer with reduced
+    semantic interference. Experiments on Reddit, Blog, and News show that HyperStyler
+    consistently outperforms prior methods, generalizes robustly across domains, and
+    requires only a 2.4\% increase in parameters.
+  archival: false
+  attributes:
+    paper_type: long
+    presentation_type: poster
+  authors:
+  - dblp: https://dblp.org/pid/326/4049
+    first_name: Jongkyung
+    google_scholar: https://scholar.google.co.kr/citations?user=_iEhWwYAAAAJ&hl=ko
+    homepage: https://github.com/JongKyung-Shin
+    last_name: Shin
+    orcid: https://orcid.org/0000-0003-4208-4313
+    semantic_scholar: https://www.semanticscholar.org/author/Jongkyung-Shin/2180261947
+  - first_name: Minguk
+    homepage: https://rzbsys.notion.site/introduction?source=copy_link
+    institution: Ulsan National Institute of Science and Technology
+    last_name: Jeon
+  - first_name: Chan
+    last_name: Park
+    middle_name: Woo
+  - dblp: https://dblp.org/pid/220/6678.html
+    first_name: Chiehyeon
+    google_scholar: https://scholar.google.co.kr/citations?user=NW7F08MAAAAJ&hl=ko&oi=sra
+    homepage: http://service.unist.ac.kr/
+    institution: Ulsan National Institute of Science and Technology
+    last_name: Lim
+    orcid: https://orcid.org/0000-0001-6112-9674
+    semantic_scholar: https://www.semanticscholar.org/author/Chiehyeon-Lim/47532502
+  file: 57.pdf
+  id: '57'
+  title: Low-resource Authorship Style Transfer via Dynamic Style Inference and Parameter
+    Modulation

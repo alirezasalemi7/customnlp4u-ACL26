@@ -1,0 +1,139 @@
+# Source: OpenReview Reviewers group UI listing for
+#         aclweb.org/ACL/2026/Workshop/CustomNLP/Reviewers (40 rows; 39 unique
+#         after de-duping the email-only row for hchopra3@cs.uw.edu which
+#         matches Harshita Chopra). Hand-curated from the UI on 2026-05-29.
+#
+# Why hand-curated: the OpenReview Python API export was producing stale
+# entries (people no longer in the group) and incorrect matches for emails
+# that had no resolvable profile. The OpenReview UI shows the canonical
+# membership of the Reviewers group at this point in time.
+#
+# Workshop organizers are deliberately excluded — they appear in
+# organizing_committee.yml instead.
+#
+# type: name_block instructs aclpub2 to print names in alphabetized blocks.
+
+- role: Reviewers
+  type: name_block
+  entries:
+    - first_name: Shardul
+      last_name: Aggarwal
+      institution: ConvoSearch
+    - first_name: Arnav
+      last_name: Arora
+      institution: Apple
+    - first_name: Anirudh
+      last_name: Atmakuru
+      institution: Cornell University
+    - first_name: Katherine
+      last_name: Atwell
+      institution: Northeastern University
+    - first_name: Xiaoyan
+      last_name: Bai
+      institution: University of Chicago
+    - first_name: Ahsaas
+      last_name: Bajaj
+      institution: Instacart
+    - first_name: Nishant
+      last_name: Balepur
+      institution: University of Maryland, College Park
+    - first_name: Isabel
+      last_name: Cachola
+      institution: Johns Hopkins University
+    - first_name: Yapei
+      last_name: Chang
+      institution: University of Maryland, College Park
+    - first_name: Daiwei
+      last_name: Chen
+      institution: University of Wisconsin-Madison
+    - first_name: Harshita
+      last_name: Chopra
+      institution: University of Washington
+    - first_name: Debarati
+      last_name: Das
+      institution: Microsoft
+    - first_name: Jane
+      middle_name: Arleth
+      last_name: dela Cruz
+      institution: Radboud University
+    - first_name: Cristina
+      last_name: Garbacea
+      institution: University of Chicago
+    - first_name: Sayan
+      last_name: Ghosh
+      institution: Amazon
+    - first_name: Anmol
+      last_name: Goel
+      institution: Technische Universität Darmstadt
+    - first_name: Taicheng
+      last_name: Guo
+      institution: University of Notre Dame
+    - first_name: Yaoqi
+      last_name: Guo
+      institution: Nanyang Technological University
+    - first_name: Jawad
+      last_name: Hossain
+      institution: State University of New York at Albany
+    - first_name: Tiancheng
+      last_name: Hu
+      institution: University of Cambridge
+    - first_name: Brihi
+      last_name: Joshi
+      institution: University of Southern California
+    - first_name: To
+      middle_name: Eun
+      last_name: Kim
+      institution: Carnegie Mellon University
+    - first_name: Yekyung
+      last_name: Kim
+      institution: University of Maryland, College Park
+    - first_name: Kemal
+      last_name: Kirtac
+      institution: University College London
+    - first_name: Chen
+      middle_name: Cecilia
+      last_name: Liu
+      institution: University of Cambridge
+    - first_name: Haokun
+      last_name: Liu
+      institution: University of Chicago
+    - first_name: Yuhan
+      last_name: Liu
+      institution: New York University
+    - first_name: Stephen
+      last_name: Meisenbacher
+      institution: Technische Universität München
+    - first_name: Krithika
+      last_name: Ramesh
+      institution: Johns Hopkins University
+    - first_name: Jenna
+      last_name: Russell
+      institution: University of Maryland, College Park
+    - first_name: Amrita
+      last_name: Singh
+      institution: University of New South Wales
+    - first_name: Yu-Min
+      last_name: Tseng
+      institution: Virginia Tech
+    - first_name: Anvesh
+      middle_name: Rao
+      last_name: Vijjini
+      institution: University of North Carolina at Chapel Hill
+    - first_name: Manya
+      last_name: Wadhwa
+      institution: New York University
+    - first_name: Jiajing
+      last_name: Wan
+      institution: University of Bergen
+    - first_name: Wentao
+      last_name: Zhang
+      institution: University of Waterloo
+    - first_name: Wangjie
+      last_name: Zheng
+      institution: Yale University
+    - first_name: Karen
+      last_name: Zhou
+      institution: University of Chicago
+    - first_name: Shengqi
+      last_name: Zhu
+      institution: Cornell University

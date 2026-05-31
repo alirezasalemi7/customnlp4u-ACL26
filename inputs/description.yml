@@ -1,0 +1,42 @@
+# Required by the ACL 2026 conference pipeline (zeerak.org/workshops).
+# This is SEPARATE from conference_details.yml — that file is for the aclpub2
+# build tool, this file is for ACL's downstream metadata (Underline / ISBN).
+#
+# Workshop metadata (filled from the ACL 2026 workshop spreadsheet).
+
+title: "The Second Workshop on Customizable NLP (CustomNLP4U)"
+date: 2026-07-03 09:00:00
+location: "San Diego, California, USA"
+id: "workshop_W1"
+url: https://customnlp4u.github.io/
+
+# Names only (no affiliations), per the guide.
+chairs:
+  - Sheshera Mysore
+  - Sachin Kumar
+  - Vidhisha Balachandran
+  - Shirley Anugrah Hayati
+  - Faeze Brahman
+  - Hanane Nour Moussa
+  - Alireza Salemi
+
+abstract: |
+  Most language modeling research today focuses on building generalist models 
+  through pretraining at scale and reinforcement learning-based post-training. 
+  The increased capabilities of LLMs have promised greater productivity and 
+  innovation, seeing broad consumption for personal and commercial use. However, 
+  users' expectations, values, and workflows vary significantly across domains, 
+  organizations, cultures, and individuals — factors that are often 
+  under-considered in existing pipelines. Generalist models have non-uniform 
+  performance, particularly for consumers in sensitive and specialized domains 
+  such as law, finance, or health, and for individuals or cultures less 
+  represented online. For language models to deliver on their promise, there is 
+  a need to develop models that can be tailored to different consumers, easily 
+  controlled by them, and able to reason about users' private knowledge and 
+  context to provide personalized responses. Alongside these methodological 
+  questions, model customization raises ethical and security concerns around 
+  copyrighted data, user privacy, and bias — especially in sensitive domains 
+  where customization can bring large benefits but also higher risks. To discuss
+  the progress and challenges on these interdisciplinary questions, CustomNLP4U brings 
+  together researchers from diverse fields spanning Natural Language Processing (NLP), 
+  Machine Learning (ML),  Human-Computer Interaction (HCI), and Fairness and AI Policy.
