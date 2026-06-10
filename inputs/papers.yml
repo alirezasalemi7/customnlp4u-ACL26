@@ -340,30 +340,29 @@
     cost. Developing a real-world multi-turn intent classification system is challenging
     due to complex intent taxonomies, dynamic intent switching within conversations,
     and limited labeled training data. To address these challenges, we propose a scalable
-    multi-turn intent classification framework for e-commerce customer service that
-    models intent along multiple dimensions. We introduce LLM-based labeling strategies
+    multi-turn intent classification framework for ecommerce customer service that
+    models intent along multiple dimensions. We introduce LLMbased labeling strategies
     to annotate real customer transcripts at scale and augment training with LLM-simulated
     multi-turn dialogues that expand coverage of topic and intent switches, which
     are rare in existing transcripts. Through extensive experiments, we find that
-    explanation-guided labeling with a self-critique step produces the most accurate
-    training labels. Fine-tuned models built on a RoBERTa backbone outperform zero-shot
+    explanationguided labeling with a self-critique step produces the most accurate
+    training labels. Finetuned models built on a RoBERTa backbone outperform zero-shot
     LLM prompting while achieving substantially lower inference latency. Finally,
     we show that a hybrid approach that combines the fine-tuned classifier with LLM
     prompting further improves accuracy over either component alone. Overall, our
     results provide practical guidance for building and deploying high-accuracy, low-latency,
     large-scale multi-turn intent classification systems.
-  archival: false
   attributes:
     paper_type: long
     presentation_type: poster
   authors:
-  - first_name: Kaiqi
-    institution: Amazon
-    last_name: Bian
   - first_name: Biancen
     homepage: https://www.amazon.science/author/biancen-xie
     institution: Amazon
     last_name: Xie
+  - first_name: Kaiqi
+    institution: Amazon
+    last_name: Bian
   - first_name: Jai
     institution: Amazon
     last_name: Gusain
@@ -371,11 +370,14 @@
   - first_name: Manikandarajan
     institution: Amazon
     last_name: Ramanathan
-  - first_name: Rajashekar
+  - first_name: Raj
     institution: Amazon
     last_name: Maragoud
+  end_page: 83
   file: 19.pdf
   id: '19'
+  num_pages: 16
+  start_page: 68
   title: Building Multi-turn Intent Classification with LLM-based Labeling
 - abstract: 'Cross-tokenizer distillation (CTD), the transfer of knowledge from a
     teacher to a student language model when the two use different tokenizers, remains
@@ -421,11 +423,11 @@
     institution: MediaTek Research
     last_name: Buffelli
     orcid: https://orcid.org/0000-0001-5565-1634
-  end_page: 80
+  end_page: 96
   file: 24.pdf
   id: '24'
   num_pages: 13
-  start_page: 68
+  start_page: 84
   title: Cross-Tokenizer LLM Distillation through a Byte-Level Interface
 - abstract: 'Plain Language Summarization (PLS) generates summaries of technical documents
     accessible to non-expert audiences. Readability -- commonly used to evaluate PLS
@@ -463,11 +465,11 @@
     last_name: Dredze
     orcid: https://orcid.org/0000-0002-0422-2474
     semantic_scholar: https://www.semanticscholar.org/author/Mark-Dredze/1782853
-  end_page: 100
+  end_page: 116
   file: 26.pdf
   id: '26'
   num_pages: 20
-  start_page: 81
+  start_page: 97
   title: Fine-grained Readability Controlled Summarization of Scientific Documents
     via Control Vectors
 - abstract: 'Utilizing LLMs for automated taxonomy construction presents a clear opportunity
@@ -497,11 +499,11 @@
     homepage: https://www.luc.edu/quinlan/whyquinlan/facultyandstaff/profiles/norlanderpeter.shtml
     last_name: Norlander
     orcid: https://orcid.org/0000-0001-8347-7653
-  end_page: 114
+  end_page: 130
   file: 29.pdf
   id: '29'
   num_pages: 14
-  start_page: 101
+  start_page: 117
   title: Building a Custom Taxonomy of AI Skills and Tasks from the Ground Up with
     Job Postings
 - abstract: 'Large language models are known to be vulnerable to adversarial perturbations
@@ -554,11 +556,11 @@
     institution: MIT Lincoln Laboratory
     last_name: Uchendu
     semantic_scholar: https://www.semanticscholar.org/search?q=%22Adaku%20Uchendu%22&sort=relevance
-  end_page: 132
+  end_page: 148
   file: 33.pdf
   id: '33'
   num_pages: 18
-  start_page: 115
+  start_page: 131
   title: Using Topological Data Analysis to Characterize the Layers of Language Models
     Before and After Word Substitution Attacks
 - abstract: Research in language documentation has the potential to benefit from integration
@@ -591,11 +593,11 @@
     institution: Indiana University at Bloomington
     last_name: Chelliah
     middle_name: Lakshmi
-  end_page: 143
+  end_page: 159
   file: 34.pdf
   id: '34'
   num_pages: 11
-  start_page: 133
+  start_page: 149
   title: Customizing ASR for Language Documentation and Resource Prioritization
 - abstract: 'The presence of factuality errors (hallucinations) in the outputs of
     patient-facing medical chatbots is a serious problem: they can lead to patient
@@ -624,11 +626,11 @@
     first_name: Francis
     institution: RTX BBN Technologies
     last_name: Keith
-  end_page: 150
+  end_page: 166
   file: 35.pdf
   id: '35'
   num_pages: 7
-  start_page: 144
+  start_page: 160
   title: Improving Medical Hallucination Detection with System Combination and Rule-based
     Customization
 - abstract: Large language models are widely used by everyday users, and can be asked
@@ -774,11 +776,11 @@
     institution: Google
     last_name: Yang
     orcid: https://orcid.org/0009-0000-6258-6455
-  end_page: 159
+  end_page: 175
   file: 45.pdf
   id: '45'
   num_pages: 9
-  start_page: 151
+  start_page: 167
   title: 'When Valid Signals Fail: Regime Boundaries Between LLM Features and RL Trading
     Policies'
 - abstract: 'Modern conversational AI systems frequently rely on user metadata to
@@ -808,11 +810,11 @@
     institution: University of California, Berkeley
     last_name: Chan
     middle_name: M.
-  end_page: 170
+  end_page: 186
   file: 46.pdf
   id: '46'
   num_pages: 11
-  start_page: 160
+  start_page: 176
   title: Unintended Effects of Geographic Conditioning in Large Language Models
 - abstract: "Retrieval-augmented generation (RAG) is widely used in domain-specific\
     \ and knowledge-intensive applications, where long prompts increase inference\
@@ -847,11 +849,11 @@
     institution: Xi'an Jiaotong-Liverpool University
     last_name: Chen
     orcid: https://orcid.org/0000-0002-5239-596X
-  end_page: 184
+  end_page: 200
   file: 49.pdf
   id: '49'
   num_pages: 14
-  start_page: 171
+  start_page: 187
   title: 'Efficiency vs. Verifiability in Evidence-Aware RAG: Does Prompt Compression
     Preserve Citation Grounding?'
 - abstract: "Language model users often embed personal and social context in their\
@@ -947,11 +949,11 @@
     homepage: https://adivekar-utexas.github.io
     last_name: Divekar
     semantic_scholar: https://www.semanticscholar.org/author/Abhishek-Divekar/51929228
-  end_page: 197
+  end_page: 213
   file: 56.pdf
   id: '56'
   num_pages: 13
-  start_page: 185
+  start_page: 201
   title: 'When Gradients Collide: Failure Modes of Multi-Objective Prompt Optimization
     for LLM Judges'
 - abstract: Low-resource authorship style transfer (LAST) aims to rewrite text in
