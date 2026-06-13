@@ -633,66 +633,50 @@
   start_page: 160
   title: Improving Medical Hallucination Detection with System Combination and Rule-based
     Customization
-- abstract: Large language models are widely used by everyday users, and can be asked
-    to perform tasks that require specialized expertise, such as interpreting contractual
-    terms and conditions, filing personal taxes, or diagnosing medical symptoms. Although
-    these tools should not be used in place of professional advice, they can be useful
-    starting points for users seeking professional help, improving users' access and
-    interactions with professionals. In this vein, this paper introduces a legal question
-    reformulation task to assist non-experts in their interactions with lawyers. This
-    has the potential to streamline discussions between lawyers and clients, who may
-    not know the correct legal language to communicate their needs. Using a novel
-    evaluation framework informed by legal expertise, we investigate the quality of
-    model-generated legal question reformulations on in-the-wild data from non-experts
-    seeking legal advice. Our findings indicate that LLMs have significant potential
-    in legal reasoning, but some unexpected safety concerns may emerge. Further, adding
-    linguistically-aligned in-domain text samples can improve performance for smaller
-    models, even when the samples are not aligned factually with the given question.
-  archival: false
+- abstract: "Large language models are widely used by everyday users, and can be asked\
+    \ to perform tasks that require specialized expertise, such as interpreting contractual\
+    \ terms and conditions, filing personal taxes, or diagnosing medical symptoms.\
+    \ Although these tools should not be used in place of professional advice, they\
+    \ can be useful starting points for users seeking professional help, improving\
+    \ users\u2019 access and interactions with professionals. In this vein, this paper\
+    \ introduces a legal question reformulation task to assist non-experts in their\
+    \ interactions with lawyers. This has the potential to streamline discussions\
+    \ between lawyers and clients, who may not know the correct legal language to\
+    \ communicate their needs. Using a novel evaluation framework informed by legal\
+    \ expertise, we investigate the quality of model-generated legal question reformulations\
+    \ on in-the-wild data from non-experts seeking legal advice. Our findings indicate\
+    \ that LLMs have significant potential in legal reasoning, but some unexpected\
+    \ safety concerns may emerge. Further, adding linguisticallyaligned in-domain\
+    \ text samples can improve performance for smaller models, even when the samples\
+    \ are not aligned factually with the given question."
   attributes:
     paper_type: long
     presentation_type: poster
   authors:
-  - dblp: https://dblp.org/pid/295/9795.html
-    first_name: Katherine
-    google_scholar: https://scholar.google.com/citations?user=VcmM93MAAAAJ&hl=en
-    homepage: https://katherine-atwell.github.io/
-    institution: Northeastern University and University of Pittsburgh
+  - first_name: Katherine
+    institution: Northeastern University
     last_name: Atwell
-    semantic_scholar: https://www.semanticscholar.org/author/Katherine-Atwell/2115500561
-  - dblp: https://dblp.org/pid/245/3483
-    first_name: Morgan
-    google_scholar: https://scholar.google.com/citations?user=50_PZ4MAAAAJ&hl=en
-    homepage: https://morganalexandergray.github.io
-    institution: University of Saint Thomas (MN) and University of Pittsburgh
+  - first_name: Morgan
+    institution: University of Saint Thomas
     last_name: Gray
     middle_name: A.
-    orcid: https://orcid.org/0000-0002-3800-2103
-    semantic_scholar: https://www.semanticscholar.org/author/Morgan-A.-Gray/153686195
-  - dblp: https://dblp.org/pid/05/11075.html
-    first_name: Jaromir
-    google_scholar: https://scholar.google.com/citations?user=02Dvk88AAAAJ
-    homepage: https://www.cs.cmu.edu/~jsavelka/
+  - first_name: Jaromir
     institution: Carnegie Mellon University
     last_name: Savelka
-    orcid: https://orcid.org/0000-0002-3674-5456
-    semantic_scholar: https://www.semanticscholar.org/author/Jarom%C3%ADr-%C5%A0avelka/2313931
   - first_name: Len
     institution: Allegheny County Department of Human Services
     last_name: Rial
   - first_name: Sera
-    homepage: http://linardi.gspia.pitt.edu
     institution: University of Pittsburgh
     last_name: Linardi
-  - dblp: https://dblp.org/pid/163/2171
-    first_name: Malihe
-    google_scholar: https://scholar.google.com/citations?user=w24_ETkAAAAJ&hl=en
-    homepage: https://www.malihealikhani.com/
-    institution: 'Northeastern University '
+  - first_name: Malihe
+    institution: Northeastern University
     last_name: Alikhani
-    semantic_scholar: https://www.semanticscholar.org/author/Malihe-Alikhani/2715920
+  end_page: 181
   file: 36.pdf
   id: '36'
+  num_pages: 15
+  start_page: 167
   title: 'Asking the Right Questions: Can expert-prompted LLMs reformulate legal queries
     from non-experts?'
 - abstract: "Small language models often struggle with complex mathematical reasoning\
@@ -776,11 +760,11 @@
     institution: Google
     last_name: Yang
     orcid: https://orcid.org/0009-0000-6258-6455
-  end_page: 175
+  end_page: 190
   file: 45.pdf
   id: '45'
   num_pages: 9
-  start_page: 167
+  start_page: 182
   title: 'When Valid Signals Fail: Regime Boundaries Between LLM Features and RL Trading
     Policies'
 - abstract: 'Modern conversational AI systems frequently rely on user metadata to
@@ -810,11 +794,11 @@
     institution: University of California, Berkeley
     last_name: Chan
     middle_name: M.
-  end_page: 186
+  end_page: 201
   file: 46.pdf
   id: '46'
   num_pages: 11
-  start_page: 176
+  start_page: 191
   title: Unintended Effects of Geographic Conditioning in Large Language Models
 - abstract: "Retrieval-augmented generation (RAG) is widely used in domain-specific\
     \ and knowledge-intensive applications, where long prompts increase inference\
@@ -849,11 +833,11 @@
     institution: Xi'an Jiaotong-Liverpool University
     last_name: Chen
     orcid: https://orcid.org/0000-0002-5239-596X
-  end_page: 200
+  end_page: 215
   file: 49.pdf
   id: '49'
   num_pages: 14
-  start_page: 187
+  start_page: 202
   title: 'Efficiency vs. Verifiability in Evidence-Aware RAG: Does Prompt Compression
     Preserve Citation Grounding?'
 - abstract: "Language model users often embed personal and social context in their\
@@ -949,11 +933,11 @@
     homepage: https://adivekar-utexas.github.io
     last_name: Divekar
     semantic_scholar: https://www.semanticscholar.org/author/Abhishek-Divekar/51929228
-  end_page: 213
+  end_page: 228
   file: 56.pdf
   id: '56'
   num_pages: 13
-  start_page: 201
+  start_page: 216
   title: 'When Gradients Collide: Failure Modes of Multi-Objective Prompt Optimization
     for LLM Judges'
 - abstract: Low-resource authorship style transfer (LAST) aims to rewrite text in
