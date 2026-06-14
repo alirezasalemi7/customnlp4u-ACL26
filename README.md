@@ -36,9 +36,13 @@ Hamed Zamani, Dongyeop Kang, Yulia Tsvetkov
 
 - Copyright forms for papers **#1, #26, #29** still being collected from authors.
 - Paper **#1** has a minor margin issue on page 1 (camera-ready awaiting author fix).
-- Paper **#33** references begin on page 10 line 15; CustomNLP4U allows 9 pages of
-  content + page 10 for limitations, so this should be checked to confirm page 10
-  starts with the Limitations section.
+
+## Notes
+
+- CustomNLP4U allows up to **9 pages of main content** plus **page 10 for Limitations
+  and Acknowledgments**, with References following. All archival papers in this
+  volume comply with this rule (verified manually for paper #33, where page 10
+  starts with the Limitations section).
 
 ## Build tool
 
