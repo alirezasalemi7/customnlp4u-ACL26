@@ -11,16 +11,16 @@ ISBN: **979-8-89176-396-8**
 
 | Path | Description |
 |---|---|
-| `proceedings.pdf` | Full 218-page proceedings PDF (cover + front matter + 16 archival papers, all watermarked) |
-| `watermarked_pdf/` | Per-paper watermarked PDFs (17 files: `0.pdf` front matter + 16 archival papers) |
+| `proceedings.pdf` | Full 238-page proceedings PDF (cover + front matter + 17 archival papers, all watermarked) |
+| `watermarked_pdf/` | Per-paper watermarked PDFs (18 files: `0.pdf` front matter + 17 archival papers) |
 | `inputs/` | All input files used to build the proceedings: YAML metadata, prefaces TeX, and the non-watermarked camera-ready PDFs |
-| `attachments/` | Author copyright forms, one PDF per archival paper (`<paper_ID>.pdf`) — 16 forms, all archival papers covered |
+| `attachments/` | Author copyright forms, one PDF per archival paper (`<paper_ID>.pdf`) — 17 forms, all archival papers covered |
 
 ## Numbers
 
 - 47 submissions, 22 accepted (≈ 46.8% acceptance)
-- **16 archival** papers in this volume (IDs: 1, 3, 5, 14, 16, 19, 24, 29, 33, 34, 35, 36, 45, 46, 49, 56)
-- **6 non-archival** papers presented at the workshop only (IDs: 12, 18, 26, 42, 51, 57)
+- **17 archival** papers in this volume (IDs: 1, 3, 5, 14, 16, 19, 24, 26, 29, 33, 34, 35, 36, 45, 46, 49, 56)
+- **5 non-archival** papers presented at the workshop only (IDs: 12, 18, 42, 51, 57)
 - 39 reviewers, 7 organizers, 3 steering committee members
 
 All archival papers have been verified with aclpubcheck and have
@@ -41,9 +41,6 @@ Hamed Zamani, Dongyeop Kang, Yulia Tsvetkov
   and Acknowledgments**, with References following. All archival papers in this
   volume comply with this rule (verified manually for paper #33, where page 10
   starts with the Limitations section).
-- Paper **#26** was originally accepted with the intent of being archival but the
-  authors did not deliver a non-anonymous camera-ready or copyright form by the
-  proceedings deadline, so it was moved to the non-archival list.
 
 ## Build tool
 
